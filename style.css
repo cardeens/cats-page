@@ -1,4 +1,17 @@
 
-img {
+.images {
     width: 200px;
+    display: flex;
+    float: center;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 10px;
+}
+
+body {
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%
 }
